@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Calculator</title>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+
+let birthYear = parseInt(prompt("Whats your birth year?"));
+let chiZodiac = ( birthYear - 4 ) % 12;
+
+if (chiZodiac == 0) {
+    alert("Your Chinese Zodiac is a Rat")
+}
+else if(chiZodiac == 1){
+    alert("Your Chinese Zodiac is a Ox")
+
+}
+else if(chiZodiac == 2){
+    alert("Your Chinese Zodiac is a Tiger")
+
+}
+else if(chiZodiac == 3){
+    alert("Your Chinese Zodiac is a Rabbit")
+
+}
+else if(chiZodiac == 4){
+    alert("Your Chinese Zodiac is a Dragon")
+
+}
+else if(chiZodiac == 5){
+    alert("Your Chinese Zodiac is a Snake")
+
+}
+else if(chiZodiac == 6){
+    alert("Your Chinese Zodiac is a Horse")
+
+}
+else if(chiZodiac == 7){
+    alert("Your Chinese Zodiac is a Goat")
+
+}
+else if(chiZodiac == 8){
+    alert("Your Chinese Zodiac is a Monkey")
+
+}
+else if(chiZodiac == 9){
+    alert("Your Chinese Zodiac is a Rooster")
+
+}
+else if(chiZodiac == 10){
+    alert("Your Chinese Zodiac is a Dog")
+
+}
+else {
+    alert("Your Chinese Zodiac is a Pig");
+
+}
